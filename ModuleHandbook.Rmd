@@ -1,11 +1,11 @@
 ---
-title: "BIO2020 Module Handbook Experimental Design and Statistics 2020-2021"
+title: "BIO2020 Course Handbook Experimental Design and Statistics 2020-2021"
 author: "Roy Sanderson"
-date: "13/08/2020"
+date: "14/08/2020"
 output:
+  word_document: default
   pdf_document: default
   html_document: default
-  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -115,6 +115,112 @@ The following diagram summarises the overall course structure
 ![](images/BIO2020_overview.png)
 Lectures will be presented primarily be staff from the School of Maths & Statistics; all other teaching will be from staff in the Modelling Evidence and Policy Research Group (MEP) <https://www.ncl.ac.uk/nes/research/biology/modelling-evidence-policy/#ourresearch> within SNES. The online tests will be hosted on the new Canvas Virtual Learning Environment, but will require you to analyse and interpret data separately. The tests will take the form of short-answer / multiple choice / numeric answers.
 
+## Detailed structure of this course
+Materials are all provided on Canvas in the following sections (Canvas 'modules'). Each contains a set of recorded lectures / presentations, interactive websites, a related practical, and five include an online Canvas test. You will not be able to access the practicals (or tests) until you have reviewed the interactive websites.
+
+### Section One - Summarising and displaying data
+This will cover simple statistics, including measures of central tendency and variation in your data. Concepts such as statistical power and hypothesis tests will be covered. How do you know if two treatments are different? How do you know if one variable is correlated with an other? What are p-values, what are their uses, and their abuses. What are effect sizes? This section will also provide guidance on good methods to visualise your data. Data visualisation is essential both prior to data analysis, as well as to communicate your results.
+
+#### Lectures
+[Introductory lecture to module RAS: TO BE ADDED]()
+
+Lectures from Christiano Villa (Maths and Stats)
+
+#### Interactive websites
+[Data summaries and visualisation: TO BE ADDED]()
+
+[Understanding measures of central tendancy and variation NEEDS EDITING NOW MOVED EARLIER](https://newcastle-mep.shinyapps.io/measuring_variation/)
+
+#### Practical
+[Practice examples from interactive webistes: TO BE ADDED]()
+
+### Section Two - Linear models and ANOVA
+Learn about the concept of linear models, the R `lm` and `anova` functions, and how to interpret them. Understand the assumptions behind linear models, and look at examples where the explanatory variables are continuous or categorical.
+
+#### Lectures
+Lectures from Christiano Villa (Maths and Stats)
+
+#### Interactive websites
+[Linear models with continuous explanatory variables](https://newcastle-mep.shinyapps.io/learnr_regression/)
+
+[Linear models with categorical explanatory variables](https://newcastle-mep.shinyapps.io/IntroAnova/)
+
+#### Practical
+[Practice examples from interactive webistes: TO BE ADDED]()
+
+#### First online assessment (5%)
+[Canvas assessment TO BE WRITTEN]()
+
+### Section Three - Dealing with multiple explanatory variables
+This section explores situations where you might have multiple explanatory variables. These might not be independent in their effects, so we explore interactions between them, and how to understand them. We also consider ways in which you can improve your experimental design by blocking, and look at what to do if things go wrong and you lose some data. We also consider how ANOVA operates - what are the basic concepts of an ANOVA table, and how are we able to study treatment effects by looking at variances?
+
+#### Lectures
+Lectures from Christiano Villa (Maths and Stats)
+
+#### Interactive websites
+[Multiple explanatory variables, interactions, blocks and missing data](https://newcastle-mep.shinyapps.io/multiple_explan/)
+
+[Understanding how sums of squares are used in linear models](https://newcastle-mep.shinyapps.io/SS-ANOVA/)
+
+#### Practical
+[Practice examples from interactive webistes: TO BE ADDED]()
+
+#### Second online assessment (5%)
+[Canvas assessment TO BE WRITTEN]()
+
+### Section Four - Generalised linear models
+The assumptions behind linear models, accessed through the `lm()` function in R, are breached when our response data consists of counts, proportions, or yes / no, true / false, dead / alive. We can extend linear models by generalising them using the `glm()` function. This sections shows you the two key statistical distributions relevant to these types of data, the Poisson and Binomial distributions, and how they relate the the traditional Gaussian (normal) distribution used in linear models.
+
+#### Lectures
+Lectures from Christiano Villa (Maths and Stats)
+
+#### Interactive website
+[Generalised linear models](https://newcastle-mep.shinyapps.io/glms/)
+
+#### Practical
+[Practice examples from interactive webistes: TO BE ADDED]()
+
+#### Third online assessment (5%)
+[Canvas assessment TO BE WRITTEN]()
+
+### Section Five - Multiple response data; unconstrained ordination
+Sometimes you will not have a single response measurement, but might have 10, 20, 50, or hundreds. If you are dealing with genomic or bioinformatic data, you might have thousands of gene sequences that you want to understand. If you do surveys of plants, birds or insects you may have large numbers of species. It is not correct to do hundreds of separate (g)lms on these data, but multivariate techniques (MVT) provide an effective way to help you interpret them. In this section we introduce you to unconstrained ordination, which allows you to visualise relationships amongst your data. You can also make simple comparisons with potential explanatory variables.
+
+#### Lectures
+Lectures from Christiano Villa (Maths and Stats)
+
+#### Interactive website
+[Unconstrained ordination NEEDS UPDATING FOR ordi_* FUNCTIONS](https://newcastle-mep.shinyapps.io/Unconstrained/)
+
+#### Practical
+[Practice examples from interactive webistes: TO BE ADDED]()
+
+#### Fourth online assessment (5%)
+[Canvas assessment TO BE WRITTEN]()
+
+### Section Six - Multiple response data; constrained ordination
+Here we demonstrate more advanced methods of using your explanatory data when you are working with multiple response variables. You will learn about permutation tests, which allow you to 'simulate' conventional ANOVA tests, such that you can infer the importance of your explanatory variables. We also discuss the best ways of visualising the results of these analyses.
+
+#### Lectures
+Lectures from Christiano Villa (Maths and Stats)
+
+[Final lecture; advice on report-writing, planning research projects in Stage 3 etc. RAS: TO BE ADDED]()
+
+#### Interactive website
+[Constrained ordination NEEDS UPDATING FOR ordi_*](https://newcastle-mep.shinyapps.io/Constrained/)
+
+#### Practical
+[Practice examples from interactive webistes: TO BE ADDED]()
+
+#### Fifth online assessment (5%)
+[Canvas assessment TO BE WRITTEN]()
+
+### Final online assessment (75%)
+This will be delivered through Canvas, and will be of a similar structure to the five short assessments, but covering topics across the whole course, to test your skills and understanding.
+
+[Canvas assessment TO BE WRITTEN]()
+
+
 # Software required
 You will use free software called R in this course. R was originally designed as a free version as a purely statistical commercial package (called S), and over the last 20 years has become the most popular analytical modelling software used by biologists in academia and industry. A huge number of free online training resources are available, and people have written what are known as 'packages' to provide extra functionality. These include data analysis in bioinformatics, ecology, zoology, animal tracking, genomics etc. I have written a small R package (called `bio2020`) to aid teaching on this module.
 
@@ -149,3 +255,4 @@ Therefore, when planning your research, a good strategy is to:
 * Check assumptions of your model. All statistical models make certain assumptions about the input data, and if your data breach these you may have to change to type of model, or even do a simple log or square-root transformation of data
 * Interpret model; if necessary modify and re-run different models and compare them. In general, the **simpler your model the better**. It is easy to create quite complex statistical models that reduce the error ($\epsilon$) but these risk being difficult to interpret. Simple models are often more biologically meaningful.
 * Write up your report (see tips below **to be added**)
+
