@@ -162,45 +162,47 @@ Each contains a set of recorded lectures / presentations, interactive websites, 
 You will not be able to access the practicals (or tests) until you have reviewed the interactive websites.
 
 ### Section One - Summarising and displaying data
-This will cover simple statistics, including measures of central tendency and variation in your data. 
-Concepts such as statistical power and hypothesis tests will be covered. 
-How do you know if two treatments are different? 
-How do you know if one variable is correlated with an other? 
-What are p-values, what are their uses, and their abuses. 
-What are effect sizes? 
+This will cover simple statistics, including measures of central tendency and variation in your data.
+
+* Statistical power and hypothesis tests will be covered. 
+* How do you know if two treatments are different? 
+* How do you know if one variable is correlated with an other? 
+* What are p-values, what are their uses, and their abuses. 
+* What are effect sizes?
+
 This section will also provide guidance on good methods to visualise your data. 
 Data visualisation is essential both prior to data analysis, as well as to communicate your results.
 
 #### Lectures
-[Introductory lecture to module RAS: TO BE ADDED]()
+Introductory lecture to module from Roy Sanderson (Natural & Environmental Science)
 
-Lectures from Christiano Villa (Maths and Stats)
+Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive websites
-[Data summaries and visualisation: TO BE ADDED]()
+[Data summaries and visualisation](https://naturalandenvironmentalscience.shinyapps.io/Summary_vis/)
 
-[Understanding measures of central tendancy and variation NEEDS EDITING NOW MOVED EARLIER](https://newcastle-mep.shinyapps.io/measuring_variation/)
+[Understanding measures of central tendancy and variation](https://naturalandenvironmentalscience.shinyapps.io/variation/)
 
 #### Practical
-[Practice examples from interactive webistes: TO BE ADDED]()
+Practice examples from interactive webistes
 
 ### Section Two - Linear models and ANOVA
 Learn about the concept of linear models, the R `lm` and `anova` functions, and how to interpret them. 
 Understand the assumptions behind linear models, and look at examples where the explanatory variables are continuous or categorical.
 
 #### Lectures
-Lectures from Christiano Villa (Maths and Stats)
+Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive websites
-[Linear models with continuous explanatory variables](https://newcastle-mep.shinyapps.io/learnr_regression/)
+[Linear models with continuous explanatory variables](https://naturalandenvironmentalscience.shinyapps.io/linear_explan/)
 
-[Linear models with categorical explanatory variables](https://newcastle-mep.shinyapps.io/IntroAnova/)
+[Linear models with categorical explanatory variables](https://naturalandenvironmentalscience.shinyapps.io/categorical_explan/)
 
 #### Practical
-[Practice examples from interactive webistes: TO BE ADDED]()
+Practice examples from interactive webistes
 
 #### First online assessment (5%)
-[Canvas assessment TO BE WRITTEN]()
+Online Canvas assessment (Opens Friday 30th October, Closes Friday 6th November)
 
 ### Section Three - Dealing with multiple explanatory variables
 This section explores situations where you might have multiple explanatory variables. 
@@ -209,18 +211,18 @@ We also consider ways in which you can improve your experimental design by block
 We also consider how ANOVA operates - what are the basic concepts of an ANOVA table, and how are we able to study treatment effects by looking at variances?
 
 #### Lectures
-Lectures from Christiano Villa (Maths and Stats)
+Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive websites
-[Multiple explanatory variables, interactions, blocks and missing data](https://newcastle-mep.shinyapps.io/multiple_explan/)
+[Multiple explanatory variables, interactions, blocks and missing data](https://naturalandenvironmentalscience.shinyapps.io/multiple_explan/)
 
-[Understanding how sums of squares are used in linear models](https://newcastle-mep.shinyapps.io/SS-ANOVA/)
+[Understanding how sums of squares are used in linear models](https://naturalandenvironmentalscience.shinyapps.io/how_anova_works/)
 
 #### Practical
-[Practice examples from interactive webistes: TO BE ADDED]()
+Practice examples from interactive webistes
 
 #### Second online assessment (5%)
-[Canvas assessment TO BE WRITTEN]()
+Online Canvas assessment (Opens Friday 6th November, Closes Friday 13th November)
 
 ### Section Four - Generalised linear models
 The assumptions behind linear models, accessed through the `lm()` function in R, are breached when our response data consists of counts, proportions, or yes / no, true / false, dead / alive. 
@@ -228,16 +230,16 @@ We can extend linear models by generalising them using the `glm()` function.
 This sections shows you the two key statistical distributions relevant to these types of data, the Poisson and Binomial distributions, and how they relate the the traditional Gaussian (normal) distribution used in linear models.
 
 #### Lectures
-Lectures from Christiano Villa (Maths and Stats)
+Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive website
-[Generalised linear models](https://newcastle-mep.shinyapps.io/glms/)
+[Generalised linear models](https://naturalandenvironmentalscience.shinyapps.io/generalised_linear_models/)
 
 #### Practical
-[Practice examples from interactive webistes: TO BE ADDED]()
+Practice examples from interactive webistes
 
 #### Third online assessment (5%)
-[Canvas assessment TO BE WRITTEN]()
+Online Canvas assessment (Opens Monday 23rd November, Closes Monday 30th November)
 
 ### Section Five - Multiple response data; unconstrained ordination
 Sometimes you will not have a single response measurement, but might have 10, 20, 50, or hundreds. 
@@ -248,16 +250,16 @@ In this section we introduce you to unconstrained ordination, which allows you t
 You can also make simple comparisons with potential explanatory variables.
 
 #### Lectures
-Lectures from Christiano Villa (Maths and Stats)
+Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive website
-[Unconstrained ordination NEEDS UPDATING FOR ordi_* FUNCTIONS](https://newcastle-mep.shinyapps.io/Unconstrained/)
+[Unconstrained ordination](https://naturalandenvironmentalscience.shinyapps.io/Unconstrained/)
 
 #### Practical
-[Practice examples from interactive webistes: TO BE ADDED]()
+Practice examples from interactive webistes
 
 #### Fourth online assessment (5%)
-[Canvas assessment TO BE WRITTEN]()
+Online Canvas assessment (Opens Monday 30th November, Closes Monday 7th December)
 
 ### Section Six - Multiple response data; constrained ordination
 Here we demonstrate more advanced methods of using your explanatory data when you are working with multiple response variables. 
@@ -265,24 +267,31 @@ You will learn about permutation tests, which allow you to 'simulate' convention
 We also discuss the best ways of visualising the results of these analyses.
 
 #### Lectures
-Lectures from Christiano Villa (Maths and Stats)
+Lectures from Cristiano Villa (Maths and Stats)
 
-[Final lecture; advice on report-writing, planning research projects in Stage 3 etc. RAS: TO BE ADDED]()
+Lecture from Roy Sanderson (SNES) advice on report-writing, planning research projects in Stage 3 etc.
 
 #### Interactive website
-[Constrained ordination NEEDS UPDATING FOR ordi_*](https://newcastle-mep.shinyapps.io/Constrained/)
+[Constrained ordination](https://naturalandenvironmentalscience.shinyapps.io/Constrained/)
 
 #### Practical
-[Practice examples from interactive webistes: TO BE ADDED]()
+Practice examples from interactive websites
 
 #### Fifth online assessment (5%)
-[Canvas assessment TO BE WRITTEN]()
+Online Canvas assessment (Opens Monday 7th December, Closes Monday 14th December)
+
+### Appendix
+Other tests, such as t.tests, paired t.tests, rank-based tests, Chi-squared tests.
+How do they fit into the (generalised) linear model framework. Comparison of the
+standard (base) R commands and the equivalent via `lm()` or `glm()`
+
+#### Interactive website
+[Appendix - other tests](https://naturalandenvironmentalscience.shinyapps.io/Other_tests/)
 
 ### Final online assessment (75%)
 This will be delivered through Canvas, and will be of a similar structure to the five short assessments, but covering topics across the whole course, to test your skills and understanding.
 
-[Canvas assessment TO BE WRITTEN]()
-
+Opens Monday 14th December 2020; Closes Friday 15th January 2021.
 
 # Software required
 You will use free software called R in this course. 
