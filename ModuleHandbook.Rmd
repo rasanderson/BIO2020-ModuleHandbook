@@ -1,7 +1,7 @@
 ---
 title: "BIO2020 Course Handbook Experimental Design and Statistics 2020-2021"
 author: "Roy Sanderson"
-date: "14/08/2020"
+date: "02/11/2020"
 output:
   html_document: default
   word_document: default
@@ -161,6 +161,10 @@ Materials are all provided on Canvas in the following sections (Canvas 'modules'
 Each contains a set of recorded lectures / presentations, interactive websites, a related practical, and five include an online Canvas test.
 You will not be able to access the practicals (or tests) until you have reviewed the interactive websites.
 
+#### Lectures
+Most of the lectures will be from Dr Cristiano Villas of the School of Mathematics and Statistics. They will provide you with background theory on hypothesis tests, distributions, probability etc.
+
+
 ### Section One - Summarising and displaying data
 This will cover simple statistics, including measures of central tendency and variation in your data.
 
@@ -176,8 +180,6 @@ Data visualisation is essential both prior to data analysis, as well as to commu
 #### Lectures
 Introductory lecture to module from Roy Sanderson (Natural & Environmental Science)
 
-Lectures from Cristiano Villa (Maths and Stats)
-
 #### Interactive websites
 [Data summaries and visualisation](https://naturalandenvironmentalscience.shinyapps.io/Summary_vis/)
 
@@ -186,12 +188,10 @@ Lectures from Cristiano Villa (Maths and Stats)
 #### Practical
 Practice examples from interactive webistes
 
+
 ### Section Two - Linear models and ANOVA
 Learn about the concept of linear models, the R `lm` and `anova` functions, and how to interpret them. 
 Understand the assumptions behind linear models, and look at examples where the explanatory variables are continuous or categorical.
-
-#### Lectures
-Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive websites
 [Linear models with continuous explanatory variables](https://naturalandenvironmentalscience.shinyapps.io/linear_explan/)
@@ -201,17 +201,12 @@ Lectures from Cristiano Villa (Maths and Stats)
 #### Practical
 Practice examples from interactive webistes
 
-#### First online assessment (5%)
-Online Canvas assessment (Opens Friday 30th October, Closes Friday 6th November)
 
 ### Section Three - Dealing with multiple explanatory variables
 This section explores situations where you might have multiple explanatory variables. 
 These might not be independent in their effects, so we explore interactions between them, and how to understand them. 
 We also consider ways in which you can improve your experimental design by blocking, and look at what to do if things go wrong and you lose some data. 
 We also consider how ANOVA operates - what are the basic concepts of an ANOVA table, and how are we able to study treatment effects by looking at variances?
-
-#### Lectures
-Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive websites
 [Multiple explanatory variables, interactions, blocks and missing data](https://naturalandenvironmentalscience.shinyapps.io/multiple_explan/)
@@ -221,16 +216,11 @@ Lectures from Cristiano Villa (Maths and Stats)
 #### Practical
 Practice examples from interactive webistes
 
-#### Second online assessment (5%)
-Online Canvas assessment (Opens Friday 6th November, Closes Friday 13th November)
 
 ### Section Four - Generalised linear models
 The assumptions behind linear models, accessed through the `lm()` function in R, are breached when our response data consists of counts, proportions, or yes / no, true / false, dead / alive. 
 We can extend linear models by generalising them using the `glm()` function. 
 This sections shows you the two key statistical distributions relevant to these types of data, the Poisson and Binomial distributions, and how they relate the the traditional Gaussian (normal) distribution used in linear models.
-
-#### Lectures
-Lectures from Cristiano Villa (Maths and Stats)
 
 #### Interactive website
 [Generalised linear models](https://naturalandenvironmentalscience.shinyapps.io/generalised_linear_models/)
@@ -238,8 +228,6 @@ Lectures from Cristiano Villa (Maths and Stats)
 #### Practical
 Practice examples from interactive webistes
 
-#### Third online assessment (5%)
-Online Canvas assessment (Opens Monday 23rd November, Closes Monday 30th November)
 
 ### Section Five - Multiple response data; unconstrained ordination
 Sometimes you will not have a single response measurement, but might have 10, 20, 50, or hundreds. 
@@ -249,27 +237,18 @@ It is not correct to do hundreds of separate (g)lms on these data, but multivari
 In this section we introduce you to unconstrained ordination, which allows you to visualise relationships amongst your data. 
 You can also make simple comparisons with potential explanatory variables.
 
-#### Lectures
-Lectures from Cristiano Villa (Maths and Stats)
-
 #### Interactive website
 [Unconstrained ordination](https://naturalandenvironmentalscience.shinyapps.io/Unconstrained/)
 
 #### Practical
 Practice examples from interactive webistes
 
-#### Fourth online assessment (5%)
-Online Canvas assessment (Opens Monday 30th November, Closes Monday 7th December)
 
 ### Section Six - Multiple response data; constrained ordination
 Here we demonstrate more advanced methods of using your explanatory data when you are working with multiple response variables. 
 You will learn about permutation tests, which allow you to 'simulate' conventional ANOVA tests, such that you can infer the importance of your explanatory variables. 
 We also discuss the best ways of visualising the results of these analyses.
-
-#### Lectures
-Lectures from Cristiano Villa (Maths and Stats)
-
-Lecture from Roy Sanderson (SNES) advice on report-writing, planning research projects in Stage 3 etc.
+Advice from Roy Sanderson (SNES) advice on report-writing, planning research projects in Stage 3 etc.
 
 #### Interactive website
 [Constrained ordination](https://naturalandenvironmentalscience.shinyapps.io/Constrained/)
@@ -277,19 +256,21 @@ Lecture from Roy Sanderson (SNES) advice on report-writing, planning research pr
 #### Practical
 Practice examples from interactive websites
 
-#### Fifth online assessment (5%)
-Online Canvas assessment (Opens Monday 7th December, Closes Monday 14th December)
 
-### Appendix
+### Online Appendix on "Other Tests"
 Other tests, such as t.tests, paired t.tests, rank-based tests, Chi-squared tests.
-How do they fit into the (generalised) linear model framework. Comparison of the
+These all fit into the (generalised) linear model framework. Comparison of the
 standard (base) R commands and the equivalent via `lm()` or `glm()`
 
 #### Interactive website
 [Appendix - other tests](https://naturalandenvironmentalscience.shinyapps.io/Other_tests/)
 
-### Final online assessment (75%)
-This will be delivered through Canvas, and will be of a similar structure to the five short assessments, but covering topics across the whole course, to test your skills and understanding.
+
+# Assessments
+There will be two assessments, both delivered through Canvas, to test your skills and understanding. The format will be multiple choice and numeric answers (based on datasets for you to download and analyse)
+
+* "formative" assessment, probably mid- to late-November. This does not count towards your mark for BIO2020, but will give you practice in using the new Canvas system for online assessments.
+* "summative" assessment, worth 100% of the course marks. This will be opened on 14th December 2020, and due for submission no later than 12:00 noon on Friday 15th January.
 
 Opens Monday 14th December 2020; Closes Friday 15th January 2021.
 
