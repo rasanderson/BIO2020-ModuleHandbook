@@ -1,7 +1,7 @@
 ---
 title: "BIO2020 Course Handbook Experimental Design and Statistics 2020-2021"
 author: "Roy Sanderson"
-date: "02/11/2020"
+date: "25/08/2021"
 output:
   html_document: default
   word_document: default
@@ -32,7 +32,7 @@ border:0px;
 
 
 # Introduction
-This document provides you with the aims and rationale behind the course, explains its mode of delivery given the 'flexible learning' setup for Semester 1, staff roles, and forms of assessment. 
+This document provides you with the aims and rationale behind the course, explains its mode of delivery, staff roles, and forms of assessment. 
 More importantly, it explains the underlying philosophy used to teach experimental design and statistics, which will probably differ from most that you may have previously encountered, or seen in textbooks. 
 A common approach is to provide students with a plethora of different statistical tests that they may or may not need to apply to their data, depending on how they collected their data, the aims and objectives of their experiment etc. 
 This can be very confusing, resulting in bafflement (that was my experience as an undergraduate) with the result that some UG textbooks provide complex flowcharts to help students select the appropriate test.
@@ -43,11 +43,12 @@ The arrival of computers to take the tedium out of this was a great relief.
 Most software commonly used for statistics, such as Microsoft Excel, Minitab and SPSS are menu-driven, making it easy to get started with data analysis and graph display. 
 However, whilst their learning curve is initially very shallow, it soon becomes steep. 
 Biological data is inherently complex, and often the more advanced analyses or data visualisations are difficult or impossible to undertake. 
-An additional problem is that you have no record of what you have done. You will be taking this course in October to December 2020, but many of the skills you will learn will not be practiced in full until you are doing Stage 3 courses and projects. 
-If you have not looked at Minitab after completing this course, will you remember which menu options to click on in January 2022 ? Therefore, we need an approach to teaching that provides you with a long-term, easy to read record of both why and what analyses you have undertaken in this course, and that has guided our choice of software.
+An additional problem is that you have no record of what you have done. You will be taking this course in October to December 2021, but many of the skills you will learn will not be practiced in full until you are doing Stage 3 courses and projects. 
+If you do not need to do much statistics after completing this BIO2020 course, will you remember what you need in January 2023 for your Final Year Project or other experiments/surveys? If you have menu-driven software, it is easy to learn, but easy to forget. In contrast, we will use a coding language that is now common in Biology and Zoology, called R. It is (slightly) harder to learn than menu-driven software, but you don't forget it, even 12 months later! Many careers in biology and zoology, both laboratory and field-based, expect applicants to know how to use R. We have therefore developed this course to give you the best employability skills for your CV as well.
 
-Finally, this is the first year in which I have taught on this course, and it has had to be substantially re-written for Newcastle University's flexible learning system. 
-A student representative for each course will be able to provide feedback to staff, to hear what needs improving, and also what you like.
+Finally, this is the second year in which I have taught on this course. The main change is to substantially increase the numbers of practicals and reduce the numbers of lectures. Passive learning in lectures is not particularly useful for quantitative biologists and zoologists like yourselves. Hands-on experience in practicals will give you much more confidence, and we have provided additional websites and videos for the more theoretical background.
+
+Please provide feedback (positive or negative) as you progress through BIO2020 either directly to me as course leader, or to your student representative; name(s) of student reps will be shared as soon as available.
 
 # Introduction to Biostatistical Modelling
 To some extent the above heading would be a better title for this course than "Experimental Design and Statistics". 
@@ -138,11 +139,9 @@ Let's decode this little diagram:
 * **data = mydata** Obviously you will be working with data. Often you need to *pre-process* your data before you can achieve your goal, and we will teach you simple tricks to do this.
 * **...** This represents additional options. For graphs, you might want to change colours, titles etc. In statistical models, some assumptions may need to be changed when you work with deal with count data (e.g. days after Covid19), bounded data (e.g. % photosynthesis efficiency), or presence / absence data (e.g. dead or alive aphids).
 
-# Course structure
-Most teaching will be done remotely and there are no immediate plans for 'Present in Person' teaching although this may change. 
-As a large cohort of students (170) take the module it is difficult to obtain lecture theatre space under the current restrictions. 
-There will be lectures, practicals, in-course assessments, plus trained demonstrators to assist you. 
-There will be synchronous sessions where you will be able to receive help directly from staff and demonstrators, including screen-sharing if you find this useful.
+# BIO2020 Course structure
+There will be a couple of introductory lectures from Roy Sanderson, but the focus will be on practical sessions.
+If for health or other reasons you are not able to attend the computer classes on Campus, then you should still be able to complete the course without problems. We will use Microsoft Teams to answer questions, as students can help each other more easily, and staff or demonstrators can respond more quickly.
 
 We will provide extensive use of interactive websites we have created for this course, for you to learn and practice ideas before the practicals.
 **You should try and work through these websites before attempting the practicals**. 
@@ -152,17 +151,26 @@ In the practicals you will be able to explore the example data shown on the webs
 The following diagram summarises the overall course structure
 
 ![](images/BIO2020_overview.png)
-Lectures will be presented primarily be staff from the School of Maths & Statistics; all other teaching will be from staff in the Modelling Evidence and Policy Research Group (MEP) <https://www.ncl.ac.uk/nes/research/biology/modelling-evidence-policy/#ourresearch> within SNES. 
-The online tests will be hosted on the new Canvas Virtual Learning Environment, but will require you to analyse and interpret data separately. 
+
+* Blue - broad topics shown on the left
+* Green - 6 major sections for the BIO2020 course (see below)
+* Orange - Computer practical sessions; these map onto the 6 topics
+* Red - Formative and Summative assessments
+
+Teaching staff and many demonstrators will be from the Modelling Evidence and Policy Research Group (MEP) <https://www.ncl.ac.uk/nes/research/biology/modelling-evidence-policy/#ourresearch> within SNES. The group includes Biologists and Zoologists working in many different fields, but all requiring solid data analysis and interpretation.
+The online tests will be hosted on the Canvas Virtual Learning Environment, but will require you to analyse and interpret data separately. 
 The tests will take the form of short-answer / multiple choice / numeric answers.
+
+#### Lectures
+Introductory lectures to BIO2020 from Roy Sanderson (Natural & Environmental Science); if needed a final lecture will be offered at the end of term to answer any remaining issues or questions. Some online pre-recorded lectures from Dr Cristiano Villas (School of Mathematics and Statistics) are available on Canvas for background theory but you will not be tested on this.
+
+
 
 ## Detailed structure of this course
 Materials are all provided on Canvas in the following sections (Canvas 'modules'). 
-Each contains a set of recorded lectures / presentations, interactive websites, a related practical, and five include an online Canvas test.
+Each contains a set of presentations, interactive websites, a related practical, and five include an online Canvas test.
 You will not be able to access the practicals (or tests) until you have reviewed the interactive websites.
 
-#### Lectures
-Most of the lectures will be from Dr Cristiano Villas of the School of Mathematics and Statistics. They will provide you with background theory on hypothesis tests, distributions, probability etc.
 
 
 ### Section One - Summarising and displaying data
@@ -177,8 +185,7 @@ This will cover simple statistics, including measures of central tendency and va
 This section will also provide guidance on good methods to visualise your data. 
 Data visualisation is essential both prior to data analysis, as well as to communicate your results.
 
-#### Lectures
-Introductory lecture to module from Roy Sanderson (Natural & Environmental Science)
+
 
 #### Interactive websites
 [Data summaries and visualisation](https://naturalandenvironmentalscience.shinyapps.io/Summary_vis/)
@@ -266,31 +273,31 @@ standard (base) R commands and the equivalent via `lm()` or `glm()`
 [Appendix - other tests](https://naturalandenvironmentalscience.shinyapps.io/Other_tests/)
 
 
+## Ten-minute videos (TMV)
+I am in the process of preparing some short (5 to 10 minutes) animated videos to explain in simple, non-technical terms some quantitative biology concepts. These are new for 2020-21 and hopefully you will find them useful.
+
+
 # Assessments
 There will be two assessments, both delivered through Canvas, to test your skills and understanding. The format will be multiple choice and numeric answers (based on datasets for you to download and analyse)
 
-* "formative" assessment, probably mid- to late-November. This does not count towards your mark for BIO2020, but will give you practice in using the new Canvas system for online assessments.
-* "summative" assessment, worth 100% of the course marks. This will be opened on 14th December 2020, and due for submission no later than 12:00 noon on Friday 15th January.
+* "formative" assessment, probably mid- to late-November. This does not count towards your mark for BIO2020, but will give you practice in using the Canvas system for online assessments. Probably released in late November.
+* "summative" assessment, worth 100% of the course marks. This can be completed in your own time, during the standard Semester One assessment period. Again, it is a Canvas-based test.
 
-Opens Monday 14th December 2020; Closes Friday 15th January 2021.
 
 # Software required
 You will use free software called R in this course. 
 R was originally designed as a free version as a purely statistical commercial package (called S), and over the last 20 years has become the most popular analytical modelling software used by biologists in academia and industry.
 A huge number of free online training resources are available, and people have written what are known as 'packages' to provide extra functionality. 
 These include data analysis in bioinformatics, ecology, zoology, animal tracking, genomics etc. 
-I have written a small R package (called `bio2020`) to aid teaching on this module.
+I have written a small R package (called `bio2020`) to aid teaching on this module. It is not essential to use this package, and if you have any problems installing it then let me know.
 
-The R software can be used on your own PC (it is compatible with Windows, Mac OS X and Linux), or you can use the Newcastle University Windows Virtual Desktop (WVD) which simply requires access to a browser or the WVD client <https://services.ncl.ac.uk/itservice/core-services/software/wvd/#accesswvd>. 
-We will assume that most students will use WVD, although it can be slow to start, and relies on an internet connection, so it is not a problem if you want to work on your local laptop or PC.
-Note that R is not compatible with the Android tablets you were given last year, although there is a WVD client for Android. 
-You can download the R software from <https://cran.r-project.org/> by selecting your operating system and downloading the latest release.
+The R software is pre-installed on University cluster-room and Library PCs. It can also be used on your own PC (it is compatible with Windows, Mac OS X and Linux), or you can use the Newcastle University Windows Virtual Desktop (WVD) which simply requires access to a browser or the WVD client <https://services.ncl.ac.uk/itservice/core-services/software/wvd/#accesswvd>. If you have a Windows-based tablet then R will run on that (it will not run on an Android tablet).
 
-<!-- Add in some images here screenshots of step by step install -->
+We will assume that most students will do the practicals when timetabled in the main cluster rooms. **If you want to bring along your own laptop or MacBook to these computer cluster practicals feel free to do so**. You can download the R software from <https://cran.r-project.org/> by selecting your operating system and downloading the latest release.
 
-The two main ways of running R software are through the default client, or a more complex (supposedly more user-friendly) system called RStudio Desktop. 
+The two main ways of running R software are through the default client, or a more complex and user-friend system called RStudio Desktop. **We recommend you use RStudio Desktop**. This is pre-installed in the Campus PC clusters. If you want to install it on your own laptop or MacBook, then bring it along to the first practical and we will help you. 
 Either method requires you to have the standard R software installed which comes with the default client: <https://cran.r-project.org/>. If you want to install RStudio Desktop you can install it from <https://rstudio.com/products/rstudio/>. 
-Some staff and students prefer the simpler default client, others prefer RStudio Desktop. It is not a problem which one you choose.
+
 
 # What is the question?
 As you progress through the rest of Stage 2, and especially in Stage 3, you will find that you are designing more experiments and surveys yourself, rather than being given a laboratory manual or field guide to follow. 
