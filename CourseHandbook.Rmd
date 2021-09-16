@@ -1,10 +1,10 @@
 ---
-title: "BIO2020 Course Handbook Experimental Design and Statistics 2020-2021"
+title: "BIO2020 Course Handbook Experimental Design and Statistics 2021-2022"
 author: "Roy Sanderson"
 date: "25/08/2021"
 output:
-  html_document: default
   word_document: default
+  html_document: default
   pdf_document: default
 ---
 
@@ -140,13 +140,9 @@ Let's decode this little diagram:
 * **...** This represents additional options. For graphs, you might want to change colours, titles etc. In statistical models, some assumptions may need to be changed when you work with deal with count data (e.g. days after Covid19), bounded data (e.g. % photosynthesis efficiency), or presence / absence data (e.g. dead or alive aphids).
 
 # BIO2020 Course structure
-There will be a couple of introductory lectures from Roy Sanderson, but the focus will be on practical sessions.
-If for health or other reasons you are not able to attend the computer classes on Campus, then you should still be able to complete the course without problems. We will use Microsoft Teams to answer questions, as students can help each other more easily, and staff or demonstrators can respond more quickly.
+There will be a couple of introductory lectures from Roy Sanderson in Induction Week, the first week of teaching, but the focus will be on practical sessions.
+If for health or other reasons you are not able to attend the computer classes on Campus, then you should still be able to complete the course without problems. **We will use Microsoft Teams** to answer questions, as students can **help each other** more easily, and staff or demonstrators can **respond more quickly**.
 
-We will provide extensive use of interactive websites we have created for this course, for you to learn and practice ideas before the practicals.
-**You should try and work through these websites before attempting the practicals**. 
-These websites include simple quizzes to test your understanding. 
-In the practicals you will be able to explore the example data shown on the websites in more depth, and hone your skills using new data.
 
 The following diagram summarises the overall course structure
 
@@ -158,19 +154,32 @@ The following diagram summarises the overall course structure
 * Red - Formative and Summative assessments
 
 Teaching staff and many demonstrators will be from the Modelling Evidence and Policy Research Group (MEP) <https://www.ncl.ac.uk/nes/research/biology/modelling-evidence-policy/#ourresearch> within SNES. The group includes Biologists and Zoologists working in many different fields, but all requiring solid data analysis and interpretation.
-The online tests will be hosted on the Canvas Virtual Learning Environment, but will require you to analyse and interpret data separately. 
+The formative and summative tests will be hosted on the Canvas Virtual Learning Environment, but will require you to analyse and interpret data separately. 
 The tests will take the form of short-answer / multiple choice / numeric answers.
 
-#### Lectures
-Introductory lectures to BIO2020 from Roy Sanderson (Natural & Environmental Science); if needed a final lecture will be offered at the end of term to answer any remaining issues or questions. Some online pre-recorded lectures from Dr Cristiano Villas (School of Mathematics and Statistics) are available on Canvas for background theory but you will not be tested on this.
+### Lecture structure
+Introductory lectures in Induction Week and the start of term to BIO2020 from Roy Sanderson (Natural & Environmental Science); if needed a final lecture will be offered at the end of term to answer any remaining issues or questions. (Some online pre-recorded lectures by Dr Cristiano Villas, School of Mathematics and Statistics, are available on Canvas for mathematical theory but you will not be tested on this.)
 
+### Interactive websites
+We will provide extensive use of **interactive websites** we have created for this course, for you to learn and practice ideas before the practicals.
+**Please work through these websites before attempting the relevant practicals**. 
+These websites include simple quizzes to test your understanding. 
+In the practicals you will be able to explore the example data shown on the websites in more depth, and hone your skills using new data. If you study the interactive websites **before** attending the relevant practical, you will find the latter much simpler, and gain more from it.
+
+### Computer classes
+These are scheduled for six weeks (Week 4 to Week 9) in the main Herschel Building cluster room (Fell) on the first floor. If you wish to use your own laptop or MacBook in these classes then do so, but install R/RStudio before the first practical using the instructions in "Setting up R and RStudio" on the [Canvas website](https://ncl.instructure.com/courses/38776/pages/setting-up-r-and-rstudio?module_item_id=1836048) beforehand as the internal University WiFi is slow. **Please wear face masks during the computer classes** due to the large numbers of students enrolled on the course. If you wish to do most of the practical work in your own time, e.g. at home, for example for personal or health reasons then that is fine. You may want to inform snes.bmsc.support@newcastle.ac.uk if you do this, as the assumption is of 50% minimum attendance.
+
+### Ten-minute videos (TMV)
+I am in the process of preparing some short (5 to 10 minutes) animated videos to explain in simple, non-technical terms some quantitative biology concepts. These are new for 2021-22 and hopefully you will find them useful.
+
+### Section Zero on Canvas
+The Canvas module headed **Section 0: Getting ready for BIO2020** contains advice on installing R/RStudio, if using your own laptop/MacBook, as well as a quick-reference sheet for the module (CheatSheet). The latter will probably be incomprehensible at the start of this course, but should soon be a valuable resource to help you.
 
 
 ## Detailed structure of this course
 Materials are all provided on Canvas in the following sections (Canvas 'modules'). 
 Each contains a set of presentations, interactive websites, a related practical, and five include an online Canvas test.
 You will not be able to access the practicals (or tests) until you have reviewed the interactive websites.
-
 
 
 ### Section One - Summarising and displaying data
@@ -185,9 +194,9 @@ This will cover simple statistics, including measures of central tendency and va
 This section will also provide guidance on good methods to visualise your data. 
 Data visualisation is essential both prior to data analysis, as well as to communicate your results.
 
-
-
 #### Interactive websites
+[Introducing R and RStudio](https://naturalandenvironmentalscience.shinyapps.io/RstudioInstall/)
+
 [Data summaries and visualisation](https://naturalandenvironmentalscience.shinyapps.io/Summary_vis/)
 
 [Understanding measures of central tendancy and variation](https://naturalandenvironmentalscience.shinyapps.io/variation/)
@@ -272,9 +281,6 @@ standard (base) R commands and the equivalent via `lm()` or `glm()`
 #### Interactive website
 [Appendix - other tests](https://naturalandenvironmentalscience.shinyapps.io/Other_tests/)
 
-
-## Ten-minute videos (TMV)
-I am in the process of preparing some short (5 to 10 minutes) animated videos to explain in simple, non-technical terms some quantitative biology concepts. These are new for 2020-21 and hopefully you will find them useful.
 
 
 # Assessments
